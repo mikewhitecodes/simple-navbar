@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #37474f;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navlink {
+  color: white;
+  font-size: 2rem;
+  margin: 0 30px;
+  text-decoration: none;
+}
+
+.right {
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.navlink:hover {
+  color: rgb(0, 162, 255);
+  cursor: pointer;
+  /* text-decoration: underline; */
+  border: 3px solid rgb(0, 162, 255);
+  border-radius: 10px;
+  padding: 0 0.2rem;
+}
