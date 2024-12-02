@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, red, black);
+  height: 100vh;
+}
+
+.navbar {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navlink {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+}
+
+.rightlink {
+  margin: 0 5px 0 auto;
+}
+
+.joinbtn {
+  margin: 0 2rem 0 1rem;
+  /* border: 1px; */
+  border-radius: 18px;
+  padding: 0.3rem 1rem;
+  background-color: red;
+  color: black;
+}
+
+.navlink:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.joinbtn:hover {
+  background-color: rgb(116, 0, 0);
+  transform: translateX(0.2rem);
+  text-decoration: none;
+  color: black;
+}
